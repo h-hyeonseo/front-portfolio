@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 기본 스타일 */
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.App {
+  text-align: center;
+}
+
+/* 네비게이션 바 */
+.navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navigation .brand {
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-right: auto;
+}
+
+.navigation .nav-item {
+  margin: 0 5px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px;
+  display: block;
+}
+
+.navigation a:hover {
+  background-color: #555;
+}
+
+/* 섹션 스타일 */
+.section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home {
+  background-color: #f4f4f4;
+}
+
+#skills {
+  background-color: #e2e2e2;
+}
+
+#portfolio1 {
+  background-color: #d1d1d1;
+}
+
+#portfolio2 {
+  background-color: #c0c0c0;
+}
+
+#portfolio3 {
+  background-color: #afafaf;
+}
