@@ -1,0 +1,125 @@
+.portfolioContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 150px;
+}
+
+.projectInfo {
+  flex: 1;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.projectInfo h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.projectInfoList {
+  font-size: 18px;
+}
+
+.projectInfoDate {
+  font-size: 1rem;
+}
+
+.projectInfoDescription {
+    width: 80%;
+  font-size: 1rem;
+  line-height: 180%;
+  margin-top: 60px;
+}
+
+.projectImage {
+  flex: 1;
+  text-align: right;
+  width: 600px;
+}
+
+.projectImage :global(.slick-slider) {
+  margin: 0 auto;
+  width: 600px;
+  height: 400px;
+}
+
+.projectImage :global(.slick-slide) {
+  height: 400px;
+}
+
+.projectImage :global(.slick-slide) img {
+  width: 600px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.projectImage :global(.slick-dots) {
+  bottom: -30px;
+}
+
+.projectImage :global(.slick-prev),
+.projectImage :global(.slick-next) {
+  z-index: 1;
+}
+
+.projectImage :global(.slick-prev:before),
+.projectImage :global(.slick-next:before) {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.projectImage :global(.slick-prev) {
+  left: 10px;
+}
+
+.projectImage :global(.slick-next) {
+  right: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.skills button {
+  background-color: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.skills button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+
+.githubbtn button {
+  background-color: transparent;
+  border: 1px solid #000000;
+  color: white;
+  background-color: #000000;
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+hr {
+  margin-left: 0;
+  margin-top: 20px;
+  width: 80%;
+}
+
+
+.icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+    bottom: 0;
+  } 

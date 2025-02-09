@@ -1,0 +1,43 @@
+.projectSections {
+  overflow-y: auto;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.projectSections::-webkit-scrollbar {
+  display: none;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navList {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navList li {
+  margin: 5px 0;
+}
+
+.active {
+  font-weight: bold;
+  color: #FFD700;
+} 

@@ -138,4 +138,25 @@
     height: 400px;
     right: -50%;
   }
+}
+
+.portfolioContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectContent {
+  flex: 1;
+  padding: 20px;
+}
+
+.projectImage {
+  flex: 1;
+  padding: 20px;
+}
+
+.projectImage img {
+  max-width: 100%;
+  height: auto;
 } 
