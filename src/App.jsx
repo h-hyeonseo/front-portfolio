@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Navigation from './Components/Nav';
+import Navigation from './Components/Nav.jsx';
 import Home from './Components/Home';
 import About from './Components/About';
 import Portfolio1 from './Components/Portfolio1';
