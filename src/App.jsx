@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Navigation from '@/Components/Nav';
-import Home from '@/Components/Home';
-import About from '@/Components/About';
-import Portfolio1 from '@/Components/Portfolio1';
-import Portfolio2 from '@/Components/Portfolio2';
-import Portfolio3 from '@/Components/Portfolio3';
-import Portfolio4 from '@/Components/Portfolio4';
-import Portfolio5 from '@/Components/Portfolio5';
+import Navigation from './Components/Nav';
+import Home from './Components/Home';
+import About from './Components/About';
+import Portfolio1 from './Components/Portfolio1';
+import Portfolio2 from './Components/Portfolio2';
+import Portfolio3 from './Components/Portfolio3';
+import Portfolio4 from './Components/Portfolio4';
+import Portfolio5 from './Components/Portfolio5';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
