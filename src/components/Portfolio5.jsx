@@ -54,10 +54,12 @@ function Portfolio5() {
         <div className={styles.projectImage}>
           <Slider {...settings}>
             <div>
-              <img src="/img/tableorder.png" alt="프로젝트 이미지 1" />
-            </div><div>
-              <img src="/img/tableorder.png" alt="프로젝트 이미지 1" />
+              <img src="/img/테이블오더1.png" alt="프로젝트 이미지 1" />
             </div>
+            <div>
+              <img src="/img/테이블오더2.png" alt="프로젝트 이미지 2" />
+            </div>
+            
           </Slider>
         </div>
       </div>

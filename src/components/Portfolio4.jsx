@@ -39,7 +39,15 @@ function Portfolio4() {
             <div>
               <img src="/img/키오스크4.png" alt="프로젝트 이미지 4" />
             </div>
-
+            <div>
+              <img src="/img/키오스크5.png" alt="프로젝트 이미지 5" />
+            </div>
+            <div>
+              <img src="/img/키오스크6.png" alt="프로젝트 이미지 6" />
+            </div>
+            <div>
+              <img src="/img/키오스크7.png" alt="프로젝트 이미지 7" />
+            </div>
           </Slider>
         </div>
         <div className={styles.projectInfo}>

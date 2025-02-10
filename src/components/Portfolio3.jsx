@@ -63,11 +63,15 @@ function Portfolio3() {
               <img src="/img/메인웹3.png" alt="프로젝트 이미지 3" />
             </div>
             <div>
-              <img src="/img/메인웹4.png" alt="프로젝트 이미지 4" />
+              <img src="/img/메인웹5.png" alt="프로젝트 이미지 4" />
+            </div>
+            <div>
+              <img src="/img/메인웹4.png" alt="프로젝트 이미지 5" />
             </div>
           </Slider>
         </div>
       </div>
+
     </motion.section>
   );
 }
